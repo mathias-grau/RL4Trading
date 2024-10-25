@@ -2,6 +2,9 @@
 
 In this project, we are implementing a Reinforcement Learning algorithm for financial data analysis.
 
+Acces to report : 
+- [Report](RL4Trading_Final.pdf)
+
 ## Data Structure
 
 * We source our data from Yahoo Finance via their API, specifically focusing on the closing prices for our modeling purposes.
@@ -26,6 +29,12 @@ In this project, we are implementing a Reinforcement Learning algorithm for fina
 ### Deep Q-Network (DQN)
 
 * Our DQN architecture is a blend of various layers, notably incorporating LSTM due to the sequential nature of trading data. Additionally, it considers other relevant factors such as the number of stocks held and the current account balance.
+
+<p align="center">
+  <img src="images/model1.png" alt="First model with LSTM layer" width="400"/>
+  <img src="images/model2.png" alt="Second model with Transformer layer" width="400"/>
+</p>
+<p align="center"><b>Models used for the predictions</b></p>
 
 ## How to Use the Notebook
 
