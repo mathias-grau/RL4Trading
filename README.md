@@ -26,6 +26,13 @@ Acces to report :
   2. Selling a certain proportion of stocks based on the model's confidence in a sell strategy.
   3. Taking no action.
 
+<p align="center">
+  <img src="images/scatter.png" alt="First model with LSTM layer" width="400"/>
+  <img src="images/bars.png" alt="Second model with Transformer layer" width="400"/>
+</p>
+<p align="center"><b>Representation of the actions taken and their proportion</b></p>
+
+
 ### Deep Q-Network (DQN)
 
 * Our DQN architecture is a blend of various layers, notably incorporating LSTM due to the sequential nature of trading data. Additionally, it considers other relevant factors such as the number of stocks held and the current account balance.
@@ -34,7 +41,15 @@ Acces to report :
   <img src="images/model1.png" alt="First model with LSTM layer" width="400"/>
   <img src="images/model2.png" alt="Second model with Transformer layer" width="400"/>
 </p>
-<p align="center"><b>Models used for the predictions</b></p>
+<p align="center"><b>Two models using combination of RNN and Transformers to predict the next price value</b></p>
+
+## Results
+
+<p align="center">
+  <img src="images/triangle.png" alt="Action taken during the time" width="400"/>
+  <img src="images/wealth.png" alt="Evolution of the wealth" width="400"/>
+</p>
+<p align="center"><b>Action taken over time and evolution of the value of the account</b></p>
 
 ## How to Use the Notebook
 
